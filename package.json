@@ -1,6 +1,13 @@
 {
   "name": "es6-marionette",
   "version": "0.1.0",
+  "scripts": {
+    "serve": "gulp serve",
+    "build": "gulp build",
+    "serve-dist": "gulp serve:dist",
+    "tdd": "gulp tdd",
+    "test": "gulp test"
+  },
   "devDependencies": {
     "autoprefixer": "^6.2.3",
     "babel-preset-es2015": "^6.3.13",
